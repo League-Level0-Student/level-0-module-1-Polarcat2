@@ -10,5 +10,9 @@ void draw() {
   pepperoni = loadImage("pepperoni.png");
   image(pepperoni,189,200);
   pepperoni.resize(30,30);
-
+    pepperoni = loadImage ("pepperoni.png");
+    image(pepperoni,126,130);
+    pepperoni = loadImage("pepperoni.png");
+    image(pepperoni,147,68);
+    
 }}

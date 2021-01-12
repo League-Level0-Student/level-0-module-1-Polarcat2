@@ -24,7 +24,7 @@ public class TheRiddler {
 
 		}
 		// 6. Add some more riddles
-		String Riddle= JOptionPane.showInputDialog("what has to be broken before you use it?");
+		riddle= JOptionPane.showInputDialog("what has to be broken before you use it?");
 		if (riddle.equals("an egg")) {
 			JOptionPane.showMessageDialog(null, "correct!"); 
 			
@@ -33,6 +33,7 @@ public class TheRiddler {
 			JOptionPane.showMessageDialog(null, "wrong, the answer is an egg.");
 		}
 		// 2. Make a pop up to show the score.
+		JOptionPane.showMessageDialog(null, "You scored "+score);
 		
 	}
 }
