@@ -30,13 +30,15 @@ public class MyAges {
 		 *   in a different way.
 		 **/
 		
+		int yourAge = 1000;
 		//  FOR LOOP. Start a for loop to repeat while age <= your age, like this:
 		//  for ( age=0; age <= yourAge; age +=1 ) {
-		
+		for ( age=0; age <= yourAge; age +=1) {
+
 			//  Print the age variable
-		
+		System.out.println(age);
 		//  End the for loop here
-		
+		}
 		//  Run the program again. 		
 		//  Check that both loops printed the same numbers to the console
 	}
